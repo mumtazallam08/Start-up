@@ -1,0 +1,209 @@
+header {
+  position: sticky;
+  top: 0;
+  /* width: 100%; */
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 20;
+  background: #ffffff;
+}
+.header-div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header-div nav ul {
+  display: flex;
+  gap: 25px;
+}
+.header-div nav ul li {
+  list-style: none;
+}
+
+.content-first {
+  padding: 20px 40px 35px 40px;
+  display: flex;
+  gap: 15px;
+}
+.icon-div span {
+  font-size: 20px;
+}
+.content-left-div {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 20%;
+}
+.content-left-div .ant-card {
+  border-radius: 20px;
+  height: 200px;
+  background: rgb(211, 208, 208);
+}
+.content-left-div .ant-card:nth-last-child(1) {
+  height: 150px;
+  background: #333742;
+  color: #ffffff;
+}
+.content-center-div {
+  width: 50%;
+}
+.content-center-div .ant-card {
+  border-radius: 20px;
+  height: 570px;
+  background: rgb(211, 208, 208);
+}
+.content-right-div {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.content .content-right-div .ant-card:nth-child(1) {
+  border-radius: 30px;
+  height: 60px;
+  background: #333742;
+  color: #ffffff;
+}
+.content .content-right-div .ant-card {
+  border-radius: 20px;
+  height: 500px;
+  background: rgb(211, 208, 208);
+}
+/* .carousel-content{
+    color: #ffffff;
+    line-height: 460px;
+    text-align: center;
+} */
+.content-right-div .ant-carousel .slick-dots {
+  bottom: -20px;
+}
+.content-right-div .ant-carousel .slick-dots li {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+}
+
+.content-right-div .ant-carousel .slick-dots li button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.content-right-div .ant-carousel .slick-dots li button:hover {
+  background-color: #333742;
+}
+.content-right-div .ant-carousel .slick-dots li.slick-active button {
+  background: #333742;
+}
+.content-right-div .ant-carousel .slick-dots li.slick-active {
+  width: auto !important;
+}
+.first-content-left {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.arrow-link-custom {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 50%;
+  justify-content: center;
+  font-size: 20px;
+  transform: rotate(40deg);
+  color: black;
+}
+.first-right-content {
+  display: flex;
+  justify-content: flex-end;
+}
+.first-right-content .arrow-link-custom {
+  position: absolute;
+  top: 9px;
+  right: 10px;
+}
+.second-right-content {
+  position: absolute;
+  top: 12px;
+}
+.second-left-sales {
+  position: absolute;
+  bottom: 20px;
+}
+.content-second {
+  padding: 20px 40px;
+}
+.content-second-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-second-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid black;
+  padding: 5px 5px 5px 15px;
+  border-radius: 50px;
+}
+.content-left-child {
+  width: 35px;
+  height: 35px;
+  background: #000000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.content-second-bottom,
+.content-second-bottom-review {
+  overflow-y: hidden;
+  padding: 15px 0;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 10px;
+}
+.circle-color {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  gap: 5px;
+  padding: 10px 0 0 0;
+}
+.circle-color .color-dots {
+  width: 15px;
+  height: 15px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+.custom-card img {
+  border-radius: 20px;
+}
+.customer-review-home {
+  background-color: #333742;
+  color: #ffffff;
+  padding: 10px 40px 20px 40px;
+}
+
+.custom-card-review {
+  width: 352px;
+  height: 450px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 20px;
+}
+
+.content-second-top-review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
